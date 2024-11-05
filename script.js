@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
           console.error(`Invalid Maghrib time format: ${maghribAzanTime}`);
         }
       } else {
-        console.error('Prayer times for today are not available in the JSON file.');
+        console.error('Prayer times for today are not available.');
       }
     })
     .catch(error => console.error('Error fetching prayer times:', error));
