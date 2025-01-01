@@ -1,253 +1,37 @@
 {
-    "December 2024": {
-        "1": {
-            "Fajr": "5:44 AM",
-            "Sunrise": "7:04 AM",
-            "Dhuhr": "11:49 AM",
-            "Asr": "2:13 PM",
-            "Maghrib": "4:32 PM",
-            "Isha": "5:53 PM"
-        },
-        "2": {
-            "Fajr": "5:45 AM",
-            "Sunrise": "7:05 AM",
-            "Dhuhr": "11:49 AM",
-            "Asr": "2:13 PM",
-            "Maghrib": "4:32 PM",
-            "Isha": "5:53 PM"
-        },
-        "3": {
-            "Fajr": "5:46 AM",
-            "Sunrise": "7:06 AM",
-            "Dhuhr": "11:49 AM",
-            "Asr": "2:13 PM",
-            "Maghrib": "4:32 PM",
-            "Isha": "5:53 PM"
-        },
-        "4": {
-            "Fajr": "5:47 AM",
-            "Sunrise": "7:07 AM",
-            "Dhuhr": "11:50 AM",
-            "Asr": "2:13 PM",
-            "Maghrib": "4:32 PM",
-            "Isha": "5:53 PM"
-        },
-        "5": {
-            "Fajr": "5:48 AM",
-            "Sunrise": "7:08 AM",
-            "Dhuhr": "11:50 AM",
-            "Asr": "2:13 PM",
-            "Maghrib": "4:31 PM",
-            "Isha": "5:53 PM"
-        },
-        "6": {
-            "Fajr": "5:48 AM",
-            "Sunrise": "7:09 AM",
-            "Dhuhr": "11:51 AM",
-            "Asr": "2:13 PM",
-            "Maghrib": "4:31 PM",
-            "Isha": "5:53 PM"
-        },
-        "7": {
-            "Fajr": "5:49 AM",
-            "Sunrise": "7:10 AM",
-            "Dhuhr": "11:51 AM",
-            "Asr": "2:13 PM",
-            "Maghrib": "4:31 PM",
-            "Isha": "5:53 PM"
-        },
-        "8": {
-            "Fajr": "5:50 AM",
-            "Sunrise": "7:11 AM",
-            "Dhuhr": "11:52 AM",
-            "Asr": "2:13 PM",
-            "Maghrib": "4:31 PM",
-            "Isha": "5:53 PM"
-        },
-        "9": {
-            "Fajr": "5:51 AM",
-            "Sunrise": "7:12 AM",
-            "Dhuhr": "11:52 AM",
-            "Asr": "2:13 PM",
-            "Maghrib": "4:31 PM",
-            "Isha": "5:53 PM"
-        },
-        "10": {
-            "Fajr": "5:51 AM",
-            "Sunrise": "7:12 AM",
-            "Dhuhr": "11:53 AM",
-            "Asr": "2:14 PM",
-            "Maghrib": "4:32 PM",
-            "Isha": "5:54 PM"
-        },
-        "11": {
-            "Fajr": "5:52 AM",
-            "Sunrise": "7:13 AM",
-            "Dhuhr": "11:53 AM",
-            "Asr": "2:14 PM",
-            "Maghrib": "4:32 PM",
-            "Isha": "5:54 PM"
-        },
-        "12": {
-            "Fajr": "5:53 AM",
-            "Sunrise": "7:14 AM",
-            "Dhuhr": "11:53 AM",
-            "Asr": "2:14 PM",
-            "Maghrib": "4:32 PM",
-            "Isha": "5:54 PM"
-        },
-        "13": {
-            "Fajr": "5:54 AM",
-            "Sunrise": "7:15 AM",
-            "Dhuhr": "11:54 AM",
-            "Asr": "2:14 PM",
-            "Maghrib": "4:32 PM",
-            "Isha": "5:54 PM"
-        },
-        "14": {
-            "Fajr": "5:55 AM",
-            "Sunrise": "7:15 AM",
-            "Dhuhr": "11:55 AM",
-            "Asr": "2:15 PM",
-            "Maghrib": "4:33 PM",
-            "Isha": "5:55 PM"
-        },
-        "15": {
-            "Fajr": "5:55 AM",
-            "Sunrise": "7:16 AM",
-            "Dhuhr": "11:55 AM",
-            "Asr": "2:15 PM",
-            "Maghrib": "4:33 PM",
-            "Isha": "5:55 PM"
-        },
-        "16": {
-            "Fajr": "5:56 AM",
-            "Sunrise": "7:17 AM",
-            "Dhuhr": "11:55 AM",
-            "Asr": "2:15 PM",
-            "Maghrib": "4:33 PM",
-            "Isha": "5:55 PM"
-        },
-        "17": {
-            "Fajr": "5:56 AM",
-            "Sunrise": "7:17 AM",
-            "Dhuhr": "11:56 AM",
-            "Asr": "2:15 PM",
-            "Maghrib": "4:33 PM",
-            "Isha": "5:55 PM"
-        },
-        "18": {
-            "Fajr": "5:57 AM",
-            "Sunrise": "7:18 AM",
-            "Dhuhr": "11:56 AM",
-            "Asr": "2:16 PM",
-            "Maghrib": "4:34 PM",
-            "Isha": "5:56 PM"
-        },
-        "19": {
-            "Fajr": "5:58 AM",
-            "Sunrise": "7:18 AM",
-            "Dhuhr": "11:57 AM",
-            "Asr": "2:16 PM",
-            "Maghrib": "4:34 PM",
-            "Isha": "5:56 PM"
-        },
-        "20": {
-            "Fajr": "5:59 AM",
-            "Sunrise": "7:19 AM",
-            "Dhuhr": "11:57 AM",
-            "Asr": "2:17 PM",
-            "Maghrib": "4:34 PM",
-            "Isha": "5:57 PM"
-        },
-        "21": {
-            "Fajr": "5:58 AM",
-            "Sunrise": "7:20 AM",
-            "Dhuhr": "11:58 AM",
-            "Asr": "2:17 PM",
-            "Maghrib": "4:35 PM",
-            "Isha": "5:57 PM"
-        },
-        "22": {
-            "Fajr": "5:59 AM",
-            "Sunrise": "7:20 AM",
-            "Dhuhr": "11:58 AM",
-            "Asr": "2:18 PM",
-            "Maghrib": "4:35 PM",
-            "Isha": "5:58 PM"
-        },
-        "23": {
-            "Fajr": "5:59 AM",
-            "Sunrise": "7:20 AM",
-            "Dhuhr": "11:59 AM",
-            "Asr": "2:18 PM",
-            "Maghrib": "4:36 PM",
-            "Isha": "5:58 PM"
-        },
-        "24": {
-            "Fajr": "6:00 AM",
-            "Sunrise": "7:21 AM",
-            "Dhuhr": "11:59 AM",
-            "Asr": "2:19 PM",
-            "Maghrib": "4:37 PM",
-            "Isha": "5:59 PM"
-        },
-        "25": {
-            "Fajr": "6:00 AM",
-            "Sunrise": "7:21 AM",
-            "Dhuhr": "12:00 PM",
-            "Asr": "2:20 PM",
-            "Maghrib": "4:37 PM",
-            "Isha": "6:00 PM"
-        },
-        "26": {
-            "Fajr": "6:01 AM",
-            "Sunrise": "7:22 AM",
-            "Dhuhr": "12:01 PM",
-            "Asr": "2:21 PM",
-            "Maghrib": "4:38 PM",
-            "Isha": "6:01 PM"
-        },
-        "27": {
-            "Fajr": "6:01 AM",
-            "Sunrise": "7:22 AM",
-            "Dhuhr": "12:01 PM",
-            "Asr": "2:21 PM",
-            "Maghrib": "4:39 PM",
-            "Isha": "6:02 PM"
-        },
-        "28": {
-            "Fajr": "6:02 AM",
-            "Sunrise": "7:22 AM",
-            "Dhuhr": "12:02 PM",
-            "Asr": "2:22 PM",
-            "Maghrib": "4:40 PM",
-            "Isha": "6:02 PM"
-        },
-        "29": {
-            "Fajr": "6:02 AM",
-            "Sunrise": "7:22 AM",
-            "Dhuhr": "12:02 PM",
-            "Asr": "2:22 PM",
-            "Maghrib": "4:41 PM",
-            "Isha": "6:03 PM"
-        },
-        "30": {
-            "Fajr": "6:01 AM",
-            "Sunrise": "7:23 AM",
-            "Dhuhr": "12:03 PM",
-            "Asr": "2:23 PM",
-            "Maghrib": "4:41 PM",
-            "Isha": "6:03 PM"
-        },
-        "31": {
-            "Fajr": "6:03 AM",
-            "Sunrise": "7:23 AM",
-            "Dhuhr": "12:03 PM",
-            "Asr": "2:24 PM",
-            "Maghrib": "4:42 PM",
-            "Isha": "6:04 PM"
-        }
+    "January 2025": {
+        "1": {"Fajr": "6:02 AM", "Sunrise": "7:23 AM", "Dhuhr": "12:03 PM", "Asr": "2:25 PM", "Maghrib": "4:43 PM", "Isha": "6:05 PM"},
+        "2": {"Fajr": "6:02 AM", "Sunrise": "7:23 AM", "Dhuhr": "12:04 PM", "Asr": "2:25 PM", "Maghrib": "4:43 PM", "Isha": "6:05 PM"},
+        "3": {"Fajr": "6:02 AM", "Sunrise": "7:23 AM", "Dhuhr": "12:04 PM", "Asr": "2:26 PM", "Maghrib": "4:44 PM", "Isha": "6:06 PM"},
+        "4": {"Fajr": "6:02 AM", "Sunrise": "7:23 AM", "Dhuhr": "12:04 PM", "Asr": "2:27 PM", "Maghrib": "4:45 PM", "Isha": "6:07 PM"},
+        "5": {"Fajr": "6:02 AM", "Sunrise": "7:23 AM", "Dhuhr": "12:05 PM", "Asr": "2:28 PM", "Maghrib": "4:46 PM", "Isha": "6:08 PM"},
+        "6": {"Fajr": "6:02 AM", "Sunrise": "7:23 AM", "Dhuhr": "12:05 PM", "Asr": "2:29 PM", "Maghrib": "4:47 PM", "Isha": "6:09 PM"},
+        "7": {"Fajr": "6:02 AM", "Sunrise": "7:23 AM", "Dhuhr": "12:06 PM", "Asr": "2:30 PM", "Maghrib": "4:48 PM", "Isha": "6:10 PM"},
+        "8": {"Fajr": "6:02 AM", "Sunrise": "7:23 AM", "Dhuhr": "12:06 PM", "Asr": "2:31 PM", "Maghrib": "4:49 PM", "Isha": "6:11 PM"},
+        "9": {"Fajr": "6:02 AM", "Sunrise": "7:22 AM", "Dhuhr": "12:07 PM", "Asr": "2:32 PM", "Maghrib": "4:50 PM", "Isha": "6:11 PM"},
+        "10": {"Fajr": "6:02 AM", "Sunrise": "7:22 AM", "Dhuhr": "12:07 PM", "Asr": "2:33 PM", "Maghrib": "4:51 PM", "Isha": "6:12 PM"},
+        "11": {"Fajr": "6:02 AM", "Sunrise": "7:22 AM", "Dhuhr": "12:07 PM", "Asr": "2:34 PM", "Maghrib": "4:52 PM", "Isha": "6:13 PM"},
+        "12": {"Fajr": "6:01 AM", "Sunrise": "7:22 AM", "Dhuhr": "12:08 PM", "Asr": "2:35 PM", "Maghrib": "4:53 PM", "Isha": "6:14 PM"},
+        "13": {"Fajr": "6:01 AM", "Sunrise": "7:21 AM", "Dhuhr": "12:08 PM", "Asr": "2:36 PM", "Maghrib": "4:54 PM", "Isha": "6:15 PM"},
+        "14": {"Fajr": "6:01 AM", "Sunrise": "7:21 AM", "Dhuhr": "12:09 PM", "Asr": "2:37 PM", "Maghrib": "4:56 PM", "Isha": "6:16 PM"},
+        "15": {"Fajr": "6:01 AM", "Sunrise": "7:20 AM", "Dhuhr": "12:09 PM", "Asr": "2:38 PM", "Maghrib": "4:57 PM", "Isha": "6:17 PM"},
+        "16": {"Fajr": "6:00 AM", "Sunrise": "7:20 AM", "Dhuhr": "12:09 PM", "Asr": "2:39 PM", "Maghrib": "4:58 PM", "Isha": "6:18 PM"},
+        "17": {"Fajr": "6:00 AM", "Sunrise": "7:20 AM", "Dhuhr": "12:10 PM", "Asr": "2:40 PM", "Maghrib": "4:59 PM", "Isha": "6:19 PM"},
+        "18": {"Fajr": "5:59 AM", "Sunrise": "7:19 AM", "Dhuhr": "12:10 PM", "Asr": "2:41 PM", "Maghrib": "5:00 PM", "Isha": "6:20 PM"},
+        "19": {"Fajr": "5:59 AM", "Sunrise": "7:18 AM", "Dhuhr": "12:10 PM", "Asr": "2:42 PM", "Maghrib": "5:01 PM", "Isha": "6:21 PM"},
+        "20": {"Fajr": "5:59 AM", "Sunrise": "7:18 AM", "Dhuhr": "12:10 PM", "Asr": "2:43 PM", "Maghrib": "5:02 PM", "Isha": "6:22 PM"},
+        "21": {"Fajr": "5:58 AM", "Sunrise": "7:17 AM", "Dhuhr": "12:11 PM", "Asr": "2:44 PM", "Maghrib": "5:04 PM", "Isha": "6:23 PM"},
+        "22": {"Fajr": "5:58 AM", "Sunrise": "7:17 AM", "Dhuhr": "12:11 PM", "Asr": "2:45 PM", "Maghrib": "5:05 PM", "Isha": "6:24 PM"},
+        "23": {"Fajr": "5:57 AM", "Sunrise": "7:16 AM", "Dhuhr": "12:11 PM", "Asr": "2:46 PM", "Maghrib": "5:06 PM", "Isha": "6:25 PM"},
+        "24": {"Fajr": "5:56 AM", "Sunrise": "7:15 AM", "Dhuhr": "12:12 PM", "Asr": "2:47 PM", "Maghrib": "5:07 PM", "Isha": "6:27 PM"},
+        "25": {"Fajr": "5:56 AM", "Sunrise": "7:14 AM", "Dhuhr": "12:12 PM", "Asr": "2:48 PM", "Maghrib": "5:08 PM", "Isha": "6:28 PM"},
+        "26": {"Fajr": "5:55 AM", "Sunrise": "7:14 AM", "Dhuhr": "12:12 PM", "Asr": "2:49 PM", "Maghrib": "5:10 PM", "Isha": "6:29 PM"},
+        "27": {"Fajr": "5:54 AM", "Sunrise": "7:13 AM", "Dhuhr": "12:12 PM", "Asr": "2:50 PM", "Maghrib": "5:11 PM", "Isha": "6:30 PM"},
+        "28": {"Fajr": "5:54 AM", "Sunrise": "7:12 AM", "Dhuhr": "12:12 PM", "Asr": "2:51 PM", "Maghrib": "5:12 PM", "Isha": "6:31 PM"},
+        "29": {"Fajr": "5:53 AM", "Sunrise": "7:11 AM", "Dhuhr": "12:13 PM", "Asr": "2:52 PM", "Maghrib": "5:13 PM", "Isha": "6:32 PM"},
+        "30": {"Fajr": "5:52 AM", "Sunrise": "7:10 AM", "Dhuhr": "12:13 PM", "Asr": "2:53 PM", "Maghrib": "5:15 PM", "Isha": "6:33 PM"},
+        "31": {"Fajr": "5:51 AM", "Sunrise": "7:09 AM", "Dhuhr": "12:13 PM", "Asr": "2:54 PM", "Maghrib": "5:16 PM", "Isha": "6:34 PM"}
     }
 }
+
   
