@@ -1,66 +1,46 @@
-document.addEventListener("DOMContentLoaded", function() {
-  // Get the current date
+document.addEventListener("DOMContentLoaded", function () {
   const today = new Date();
-  const currentMonth = today.toLocaleString('default', { month: 'long' });
-  const currentDay = today.getDate();
+  const formattedDate = today.toISOString().split('T')[0]; // "YYYY-MM-DD"
 
-  // Fetch the prayer times from the JSON file
   fetch('salah-timings.json')
     .then(response => response.json())
     .then(data => {
-      // Access the current month's data dynamically
-      const monthData = data[`${currentMonth} ${today.getFullYear()}`];
+      const todayData = data.find(entry => entry.date === formattedDate);
 
-      if (monthData && monthData[currentDay]) {
-        const todayTimes = monthData[currentDay];
+      if (todayData) {
+        // Display Gregorian and Hijri Dates
+        document.getElementById('gregorianDate').textContent = `Gregorian: ${todayData.date}`;
+        document.getElementById('hijriDate').textContent = `Hijri: ${todayData.hijri}`;
 
-        // Populate the HTML with the times for today
-        document.getElementById('gregorianDate').textContent = `${currentMonth} ${currentDay}, ${today.getFullYear()}`;
-        document.getElementById('fajrTime').textContent = todayTimes.Fajr;
-        document.getElementById('sunriseTime').textContent = todayTimes.Sunrise;
-        document.getElementById('zuhrTime').textContent = todayTimes.Dhuhr;
-        document.getElementById('asrTime').textContent = todayTimes.Asr;
-        document.getElementById('maghrebTime').textContent = todayTimes.Maghrib;
-        document.getElementById('ishaTime').textContent = todayTimes.Isha;
+        // Salah times
+        document.getElementById('fajrTime').textContent = todayData.fajr;
+        document.getElementById('iqamahFajr').textContent = todayData.iqamah_fajr;
 
-        // Calculate Sunrise Iqama time (10 minutes after Sunrise Azan)
-        const sunriseAzanTime = todayTimes.Sunrise.trim();
-        const [sunriseHours, sunriseMinutes] = sunriseAzanTime.split(':').map(Number);
+        document.getElementById('dhuhrTime').textContent = todayData.dhuhr;
+        document.getElementById('iqamahDhuhr').textContent = todayData.iqamah_dhuhr;
 
-        if (!isNaN(sunriseHours) && !isNaN(sunriseMinutes)) {
-          const sunriseAzan = new Date(today.getFullYear(), today.getMonth(), today.getDate(), sunriseHours, sunriseMinutes);
-          const sunriseIqama = new Date(sunriseAzan.getTime() + 10 * 60000); // Add 10 minutes
+        document.getElementById('asrTime').textContent = todayData.asr;
+        document.getElementById('iqamahAsr').textContent = todayData.iqamah_asr;
 
-          const iqamaSunriseHours = sunriseIqama.getHours();
-          const iqamaSunriseMinutes = sunriseIqama.getMinutes().toString().padStart(2, '0');
-          const sunrisePeriod = iqamaSunriseHours >= 12 ? 'P.M.' : 'A.M.';
-          const formattedSunriseHours = ((iqamaSunriseHours + 11) % 12 + 1); // Convert to 12-hour format
-
-          document.querySelector('tr:nth-child(3) td:nth-child(3)').textContent = `${formattedSunriseHours}:${iqamaSunriseMinutes} ${sunrisePeriod}`;
+        document.getElementById('maghribTime').textContent = todayData.maghrib;
+        // Maghrib Iqama = 5 mins after azan (if not in JSON)
+        if (todayData.iqamah_maghrib) {
+          document.getElementById('iqamahMaghrib').textContent = todayData.iqamah_maghrib;
         } else {
-          console.error(`Invalid Sunrise time format: ${sunriseAzanTime}`);
+          const [h, m] = todayData.maghrib.split(':').map(Number);
+          const maghribAzan = new Date(today.getFullYear(), today.getMonth(), today.getDate(), h, m);
+          const maghribIqama = new Date(maghribAzan.getTime() + 5 * 60000);
+          const formatted = maghribIqama.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+          document.getElementById('iqamahMaghrib').textContent = formatted;
         }
 
-        // Calculate Maghrib Iqama time (5 minutes after Maghrib Azan)
-        const maghribAzanTime = todayTimes.Maghrib.trim();
-        const [maghribHours, maghribMinutes] = maghribAzanTime.split(':').map(Number);
-
-        if (!isNaN(maghribHours) && !isNaN(maghribMinutes)) {
-          const maghribAzan = new Date(today.getFullYear(), today.getMonth(), today.getDate(), maghribHours, maghribMinutes);
-          const maghribIqama = new Date(maghribAzan.getTime() + 5 * 60000); // Add 5 minutes
-
-          const iqamaMaghribHours = maghribIqama.getHours();
-          const iqamaMaghribMinutes = maghribIqama.getMinutes().toString().padStart(2, '0');
-          const maghribPeriod = iqamaMaghribHours >= 12 ? 'P.M.' : 'A.M.';
-          const formattedMaghribHours = ((iqamaMaghribHours + 11) % 12 + 1); // Convert to 12-hour format
-
-          document.querySelector('tr:nth-child(6) td:nth-child(3)').textContent = `${formattedMaghribHours}:${iqamaMaghribMinutes} ${maghribPeriod}`;
-        } else {
-          console.error(`Invalid Maghrib time format: ${maghribAzanTime}`);
-        }
+        document.getElementById('ishaTime').textContent = todayData.isha;
+        document.getElementById('iqamahIsha').textContent = todayData.iqamah_isha;
       } else {
-        console.error('Prayer times for today are not available.');
+        console.error('Today’s data not found');
       }
     })
-    .catch(error => console.error('Error fetching prayer times:', error));
+    .catch(error => {
+      console.error('Error fetching prayer times:', error);
+    });
 });
